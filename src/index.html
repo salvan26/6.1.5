@@ -7,10 +7,95 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title><6.1.5></title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <div class="width-control">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__left-side">
+            <button class="round-icon round-icon--menu"></button>
+            <div class="header__logo logo">
+              <a href="#">
+                <img src="img/Group.svg" alt="Логотип CPS" />
+              </a>
+            </div>
+          </div>
+          <div class="header__right-side">
+            <div class="button-hidder">
+              <button class="round-icon round-icon--call"></button>
+              <button class="round-icon round-icon--chat"></button>
+              <button class="round-icon round-icon--profile"></button>
+            </div>
+            <button class="round-icon round-icon--work button-work"></button>
+            <button
+              class="round-icon round-icon--search button-search"
+            ></button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__title">
+          <div class="position-control">
+            <h1 class="main__h-title">Услуги и сервисы</h1>
+            <div class="wrap-control">
+              <a href="#" class="main__text-button">
+                <span>Оставить заявку</span>
+                <div class="button-work"></div>
+              </a>
+              <a href="#" class="main__text-button">
+                <span>Статус ремонта</span>
+                <div class="button-search"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <nav class="main__menu-slider">
+          <ul class="main__menu-list">
+            <li class="main__menu-item"
+              ><a href="#" class="main__button">Ремонтируемые устройства</a></li
+            >
+            <li class="main__menu-item"
+              ><a href="#" class="main__button">Дополнительные услуги</a></li
+            >
+            <li class="main__menu-item"
+              ><a href="#" class="main__button">Цены на услуги</a></li
+            >
+            <li class="main__menu-item"
+              ><a href="#" class="main__button">Специальные цены</a></li
+            >
+            <li class="main__menu-item"
+              ><a href="#" class="main__button">Адреса сервисных центров</a></li
+            >
+            <li class="main__menu-item"
+              ><a href="#" class="main__button">Отзывы</a></li
+            >
+          </ul>
+        </nav>
+        <div class="main__about-block">
+          <div class="main__info">
+            <div class="main__text-control">
+              <p class="main__paragraph paragraph"
+                >Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.</p
+              ><br />
+              <p class="main__paragraph paragraph--more-info">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
+            </div>
+            <button class="main__readmore-block">Читать далее</button>
+          </div>
+          <img
+            class="main__image"
+            src="img/backimage.png"
+            alt="изображение логотипа"
+          />
+        </div>
+      </main>
+    </div>
   </body>
 </html>
