@@ -61,5 +61,8 @@
   "bugs": {
     "url": "https://github.com/salvan26/6.1.5/issues"
   },
-  "homepage": "https://github.com/salvan26/6.1.5#readme"
+  "homepage": "https://github.com/salvan26/6.1.5#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }

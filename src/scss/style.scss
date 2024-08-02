@@ -1,1 +1,17 @@
+$text: #1b1c21;
 
+@font-face {
+  font-family: 'TT Lakes Compressed';
+  src: url('TTLakesCompressed-Regular.eot');
+  src: local('TT Lakes Compressed Regular'), local('TTLakesCompressed-Regular'),
+    url('TTLakesCompressed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('TTLakesCompressed-Regular.woff') format('woff'),
+    url('TTLakesCompressed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'TT Lakes', 'Arial', sans-serif;
+  color: $text;
+}
