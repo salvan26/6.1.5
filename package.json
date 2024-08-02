@@ -1,7 +1,7 @@
 {
   "name": "final-maket",
   "version": "1.0.0",
-  "description": "- [Node 14.18.3](https://nodejs.org/download/release/v14.18.3/)\r - [NVM/MacOC](https://tecadmin.net/install-nvm-macos-with-homebrew/)\r - [NVM/Windows](https://github.com/coreybutler/nvm-windows/releases) Если Windows то установка только от имени администратора\r - [Yarn](https://yarnpkg.com/)",
+  "description": "final-maket",
   "keywords": [
     "web",
     "scss",
