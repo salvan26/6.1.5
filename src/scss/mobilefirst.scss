@@ -35,7 +35,7 @@
 }
 
 .round-icon--menu {
-  background-image: url(./img/icon.png);
+  background-image: url(../img/icon.png);
 }
 
 .header__logo::after {
@@ -49,11 +49,11 @@
 }
 
 .round-icon--work {
-  background-image: url(./img/work-icon.png);
+  background-image: url(../img/work-icon.png);
 }
 
 .round-icon--search {
-  background-image: url(./img/search-icon.png);
+  background-image: url(../img/search-icon.png);
 }
 
 .header__left-side {
@@ -74,15 +74,15 @@
 }
 
 .round-icon--call {
-  background-image: url(./img/call.png);
+  background-image: url(../img/call.png);
 }
 
 .round-icon--chat {
-  background-image: url(./img/chat-icon.png);
+  background-image: url(../img/chat-icon.png);
 }
 
 .round-icon--profile {
-  background-image: url(./img/profile-icon.png);
+  background-image: url(../img/profile-icon.png);
 }
 
 .main__title {
@@ -111,7 +111,7 @@
   left: -20px;
   width: 4px;
   height: 40px;
-  background-image: url(./img/highlight.svg);
+  background-image: url(../img/highlight.svg);
 }
 
 .main__menu-slider {
@@ -196,5 +196,5 @@
   content: '';
   width: 24px;
   height: 24px;
-  background: url(./img/link-icon.png) no-repeat 50% 50%;
+  background: url(../img/link-icon.png) no-repeat 50% 50%;
 }
