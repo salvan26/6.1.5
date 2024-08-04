@@ -11,17 +11,17 @@
 .header {
   border-bottom: 1px solid;
   border-color: #d9fff5;
-}
 
-.header__inner {
-  display: flex;
-  flex-direction: row;
-  width: auto;
-  height: 88px;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 15px;
-  margin-right: 15px;
+  .header__inner {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 88px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 .round-icon {
@@ -197,4 +197,110 @@
   width: 24px;
   height: 24px;
   background: url(../img/link-icon.png) no-repeat 50% 50%;
+}
+
+.swiper-header {
+  border-top: 1px solid #d9fff5;
+  width: auto;
+  height: 80px;
+  background-image: linear-gradient(#f8f8f8 100%, #ffffff 100%);
+}
+
+.swiper-header__title {
+  padding-left: 14px;
+  padding-top: 16px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7e7e82;
+}
+
+.main-content {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+}
+
+.swiper-container {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  overflow-x: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.swiper-slide {
+  width: 240px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+}
+
+.swiper__btn-show {
+  display: block;
+  border: 1px solid #ff3e79;
+  border-radius: 50%;
+  background: url(..img/dropdown.svg) no-repeat center;
+  height: 40px;
+  width: 40px;
+  margin-left: 160px;
+  margin-top: 15px;
+}
+
+.slide-lenovo {
+  background-image: url(..img/lenovo.png);
+}
+
+.slide-samsung {
+  background-image: url(..img/samsung.png);
+}
+
+.slide-apple {
+  background-image: url(..img/apple.png);
+}
+
+.slide-sonic {
+  background-image: url(..img/sonic.png);
+}
+
+.slide-bosch {
+  background-image: url(..img/bosch.png);
+}
+
+.slide-hp {
+  background-image: url(..img/hp.png);
+}
+
+.slide-acer {
+  background-image: url(..img/acer.png);
+}
+
+.slide-sony {
+  background-image: url(..img/sony.png);
+  background-size: 40% 40%;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #dddddd;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #b5b6bc;
+}
+
+.show-more {
+  display: none;
 }
