@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
     checker()
   }
 
-  resizableSwiper('(max-width: 760px)', '.swiper-container', {
+  resizableSwiper('(max-width: 760px)', '.swiper-container3', {
     direction: 'horizontal',
     loop: true,
     loopedSlides: 11,
