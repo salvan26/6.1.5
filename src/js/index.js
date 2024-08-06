@@ -1,5 +1,7 @@
 import '../scss/style.scss'
 import '../scss/mobilefirst.scss'
+import '../scss/tablet.scss'
+import '../scss/desktop.scss'
 import './brand-swiper.js'
 import './hardware-swiper.js'
 import './services-swiper.js'

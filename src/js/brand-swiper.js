@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const showMore = document.querySelector('.show-more')
 showMore.addEventListener('click', function () {
-  let content = document.querySelector('.swiper-wrapper')
+  let content = document.querySelector('.brand-wrapper')
   if (content.classList.contains('wrapper-show')) {
     content.classList.remove('wrapper-show')
     showMore.textContent = 'Показать все'

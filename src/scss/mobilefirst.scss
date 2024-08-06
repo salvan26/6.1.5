@@ -15,17 +15,17 @@ $shadow: #7e7e82;
 .header {
   border-bottom: 1px solid;
   border-color: $border;
+}
 
-  .header__inner {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 88px;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
+.header__inner {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 88px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .round-icon {

@@ -39,15 +39,3 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   })
 })
-
-const showMore = document.querySelector('.show-more')
-showMore.addEventListener('click', function () {
-  let content = document.querySelector('.swiper-wrapper')
-  if (content.classList.contains('wrapper-show')) {
-    content.classList.remove('wrapper-show')
-    showMore.textContent = 'Показать все'
-  } else {
-    content.classList.add('wrapper-show')
-    showMore.textContent = 'Скрыть'
-  }
-})

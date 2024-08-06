@@ -40,14 +40,14 @@ window.addEventListener('DOMContentLoaded', () => {
   })
 })
 
-const showMore = document.querySelector('.show-more')
+const showMore = document.querySelector('.show-more1')
 showMore.addEventListener('click', function () {
-  let content = document.querySelector('.swiper-wrapper')
-  if (content.classList.contains('wrapper-show')) {
-    content.classList.remove('wrapper-show')
+  let content = document.querySelector('.hardware-wrapper')
+  if (content.classList.contains('wrapper-show1')) {
+    content.classList.remove('wrapper-show1')
     showMore.textContent = 'Показать все'
   } else {
-    content.classList.add('wrapper-show')
+    content.classList.add('wrapper-show1')
     showMore.textContent = 'Скрыть'
   }
 })
