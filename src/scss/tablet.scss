@@ -1,4 +1,6 @@
 @media (min-width: 768px) {
+  $tableLine: #eaeaea;
+  $border: #d9fff5;
   .header__inner {
     display: flex;
     flex-direction: row;
@@ -19,7 +21,7 @@
     width: 2px;
     margin-left: -15px;
     margin-top: 15px;
-    background-color: #eaeaea;
+    background-color: $tableLine;
   }
 
   .button-hidder {
@@ -28,7 +30,7 @@
   }
   .button-hidder::after {
     content: '';
-    background-color: #eaeaea;
+    background-color: $tableLine;
     height: 32px;
     width: 2px;
     align-self: center;
@@ -90,8 +92,8 @@
     width: 40px;
   }
 
-  .show-more,
-  .show-more1 {
+  .brand-showMore,
+  .hardware-showMore {
     display: block;
     text-decoration: none;
     color: #1b1c21;
@@ -101,6 +103,7 @@
     font-weight: 550;
     border: none;
     background: transparent;
+    margin: 20px 0;
     margin-left: 25px;
     align-self: start;
   }
@@ -144,7 +147,7 @@
     background-repeat: no-repeat;
     background-position: 20px center;
     border-radius: 6px;
-    border: 1px solid #eaeaea;
+    border: 1px solid $tableLine;
   }
 
   .wrapper-show1 {
@@ -157,5 +160,93 @@
     overflow-y: hidden;
     gap: 24px;
     row-gap: 10px;
+  }
+
+  .services-content {
+    display: none;
+  }
+
+  .services-table {
+    display: table;
+    width: 100%;
+  }
+
+  .services__tablet {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .services__title {
+    text-align: left;
+    height: 70px;
+    font-size: 14px;
+    color: #7e7e82;
+    .services__list {
+      padding-left: 10px;
+    }
+  }
+
+  .services__body {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: auto;
+  }
+
+  .services__wrap {
+    text-align: left;
+    font-size: 14px;
+    height: 60px;
+  }
+
+  .services__item {
+    padding-top: 20px;
+    border-bottom: 1px solid #eaeaea;
+    vertical-align: top;
+  }
+
+  .item--name {
+    padding-left: 10px;
+  }
+
+  .last--item {
+    border-bottom: none;
+  }
+
+  .services__price-info {
+    margin-top: 20px;
+    width: 420px;
+  }
+
+  .services__offer {
+    width: 100%;
+  }
+
+  .footer-info {
+    width: 100%;
+    margin-top: 20px;
+    height: 80px;
+    border-top: 1px solid $border;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    white-space: normal;
+  }
+
+  .footer-info__string {
+    font-size: 14px;
+    padding: 0 20px;
+    padding-top: 30px;
+    text-align: right;
+  }
+
+  .string--left {
+    text-align: left;
+  }
+
+  .string--right {
+    text-align: right;
+    word-wrap: break-word;
+    width: 200px;
   }
 }

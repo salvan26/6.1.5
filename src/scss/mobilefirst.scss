@@ -11,7 +11,17 @@ $shadow: #7e7e82;
   text-decoration: none;
   list-style: none;
 }
-
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  background-color: #f8f8f8;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .header {
   border-bottom: 1px solid;
   border-color: $border;
@@ -131,7 +141,7 @@ $shadow: #7e7e82;
 .main__menu-list {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-top: 2%;
   width: 100%;
   white-space: nowrap;
@@ -207,7 +217,7 @@ $shadow: #7e7e82;
   border-top: 1px solid $border;
   width: auto;
   height: 80px;
-  background-image: linear-gradient(#f8f8f8 100%, #ffffff 100%);
+  background-image: linear-gradient(#ffffff 100%, #f8f8f8 100%);
 }
 
 .content-header__title {
@@ -278,13 +288,14 @@ $shadow: #7e7e82;
   background-color: #b5b6bc;
 }
 
-.show-more {
+.brand-showMore,
+.hardware-showMore {
   display: none;
 }
 
 .swiper-container1 {
   margin-top: 15px;
-  width: 100%;
+  width: auto;
   height: auto;
   margin-left: 10px;
   overflow-x: hidden;
@@ -320,6 +331,10 @@ $shadow: #7e7e82;
   height: 80px;
   text-decoration: none;
   color: $text;
+}
+
+.services-table {
+  display: none;
 }
 
 .swiper-container2 {
@@ -382,15 +397,22 @@ $shadow: #7e7e82;
   display: block;
   color: $text;
   font-size: 14px;
+  margin-left: 20px;
 }
 
 .services__offer {
+  text-decoration: none;
   white-space: normal;
   margin-top: 15px;
   width: 200px;
+  margin-left: 20px;
+}
+
+.services__offer a {
+  color: #1b1c21;
 }
 .footer-info {
-  width: 100%;
+  width: auto;
   margin-top: 20px;
   border-top: 1px solid $border;
   text-align: center;

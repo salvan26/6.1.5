@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
   })
 })
 
-const showMore = document.querySelector('.show-more1')
+const showMore = document.querySelector('.hardware-showMore')
 showMore.addEventListener('click', function () {
   let content = document.querySelector('.hardware-wrapper')
   if (content.classList.contains('wrapper-show1')) {

@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
   })
 })
 
-const showMore = document.querySelector('.show-more')
+const showMore = document.querySelector('.brand-showMore')
 showMore.addEventListener('click', function () {
   let content = document.querySelector('.brand-wrapper')
   if (content.classList.contains('wrapper-show')) {
