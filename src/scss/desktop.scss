@@ -131,7 +131,7 @@
 
   .content-header {
     width: 1120px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   .services-content,
@@ -231,7 +231,15 @@
 
   .services__offer {
     width: 1120px;
-    margin: 20px auto;
+    margin: 20px;
+    margin-left: 20px;
+  }
+
+  .side-menu {
+    display: block;
+  }
+  .menu--desk {
+    display: none;
   }
 
   .footer-info {

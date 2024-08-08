@@ -112,7 +112,7 @@
             </a>
           </div>
           <div class="swiper-slide slide-brand">
-            <a href="#" class="brand-wrap">
+            <a href="#" class="brand-wrap slide--animated">
               <img src="./img/samsung.png" />
               <div class="swiper__btn-show"></div>
             </a>
@@ -233,7 +233,7 @@
           <div class="swiper-slide slide-hardware">
             <a href="#" class="swiper__link">
               <span class="hardware-text">Ремонт телефонов</span>
-              <img class="swiper__btn-show2" src="./img/dropdown.svg" />
+              <img class="swiper__btn-show2" />
             </a>
           </div>
         </div>
@@ -356,13 +356,17 @@
             <td class="services__item item--name">Диагностика</td>
             <td class="services__item">Бесплатно</td>
             <td class="services__item">30 мин</td>
-            <td class="services__item">Заказать</td>
+            <td class="services__item item--lining"
+              ><button class="services__item-btn">Заказать</button></td
+            >
           </tr>
           <tr class="services__wrap">
             <td class="services__item item--name">Замена дисплея</td>
             <td class="services__item">1000р</td>
             <td class="services__item">30-120 мин</td>
-            <td class="services__item">Заказать</td>
+            <td class="services__item item--lining"
+              ><button class="services__item-btn">Заказать</button></td
+            >
           </tr>
           <tr class="services__wrap">
             <td class="services__item item--name"
@@ -370,7 +374,9 @@
             >
             <td class="services__item">1000р</td>
             <td class="services__item">30-120 мин</td>
-            <td class="services__item">Заказать</td>
+            <td class="services__item item--lining"
+              ><button class="services__item-btn">Заказать</button></td
+            >
           </tr>
           <tr class="services__wrap">
             <td class="services__item item--name"
@@ -378,7 +384,9 @@
             >
             <td class="services__item">1000р</td>
             <td class="services__item">30-120 мин</td>
-            <td class="services__item">Заказать</td>
+            <td class="services__item item--lining"
+              ><button class="services__item-btn">Заказать</button></td
+            >
           </tr>
           <tr class="services__wrap">
             <td class="services__item last--item item--name"
@@ -386,7 +394,9 @@
             >
             <td class="services__item last--item">1000р</td>
             <td class="services__item last--item">30-120 мин</td>
-            <td class="services__item last--item">Заказать</td>
+            <td class="services__item last--item item--lining"
+              ><button class="services__item-btn">Заказать</button></td
+            >
           </tr>
         </tbody>
       </table>
@@ -404,6 +414,71 @@
             <img src="./img/dropdown.svg" /> </a></h4
       ></div>
     </section>
+    <aside class="side-menu menu--off">
+      <div class="side-menu__inner">
+        <button class="round-icon open--menu menu--desk"></button>
+        <div class="header__logo logo">
+          <a href="#">
+            <img src="./img/Group.svg" alt="Логотип CPS" />
+          </a>
+        </div>
+        <button class="round-icon open-menu--search"></button>
+      </div>
+      <div class="menu-wrap">
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="menu__item" id="active-1"
+              ><a href="#active-1" class="menu__link">Ремонт техники</a></li
+            >
+            <li class="menu__item" id="active-2"
+              ><a href="#active-2" class="menu__link">Услуги и сервисы</a></li
+            >
+            <li class="menu__item" id="active-3"
+              ><a href="#active-3" class="menu__link"
+                >Корпоративным клиентам</a
+              ></li
+            >
+            <li class="menu__item" id="active-4"
+              ><a href="#active-4" class="menu__link">Продавцам техники</a></li
+            >
+            <li class="menu__item" id="active-5"
+              ><a href="#active-5" class="menu__link">Партнерам</a></li
+            >
+            <li class="menu__item" id="active-6"
+              ><a href="#active-6" class="menu__link">Производителям</a></li
+            >
+            <li class="menu__item" id="active-7"
+              ><a href="#active-7" class="menu__link"
+                >Наши сервисные центры</a
+              ></li
+            >
+            <li class="menu__item" id="active-8"
+              ><a href="#active-8" class="menu__link">Контакты</a></li
+            >
+          </ul>
+        </nav>
+        <nav class="header__contacts contacts">
+          <div class="header__bottom-btn">
+            <button class="button-bot button-call"></button>
+            <button class="button-bot button-chat"></button>
+            <button class="button-bot button-profile"></button>
+          </div>
+          <a href="mailto:name@domain.com"
+            ><span class="header__mail">mail@cps.com</span></a
+          >
+          <pre
+            class="header__phone"
+          ><a href="tel:+70001234567">8 800 890 8900</a></pre>
+        </nav>
+        <p class="header__lang">
+          <span
+            ><a class="lang-item lang-item--active" href="hreflang">RU</a></span
+          >
+          <span><a class="lang-item" href="hreflang">EN</a></span>
+          <span><a class="lang-item" href="hreflang">CH</a></span>
+        </p>
+      </div>
+    </aside>
     <footer class="footer-info">
       <p class="footer-info__string string--left">
         ©2019CPS<br />
