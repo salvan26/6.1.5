@@ -271,6 +271,10 @@ body {
   margin-top: 15px;
 }
 
+.brand-img {
+  width: 45px;
+}
+
 .swiper__btn-show {
   display: block;
   border: 1px solid #ff3e79;
@@ -423,7 +427,7 @@ body {
   top: 0;
   left: 0;
   height: 100vh;
-  z-index: 1;
+  z-index: 1000;
   background-color: #fff;
   overflow-y: scroll;
 }
@@ -578,4 +582,20 @@ body {
   color: $shadow;
   font-size: 14px;
   padding-top: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #eaeaea;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0.9;
+}
+
+.overlay--on {
+  visibility: visible;
 }

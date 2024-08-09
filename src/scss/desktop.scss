@@ -1,6 +1,8 @@
 @media (min-width: 1120px) {
   body {
-    width: 100%;
+    width: calc(100vw - 320px);
+    position: relative;
+    left: 320px;
   }
 
   .width-control {
@@ -22,6 +24,10 @@
   }
   .header__logo::before {
     display: none;
+  }
+
+  .header__logo {
+    margin-left: 20px;
   }
 
   .main__title {
