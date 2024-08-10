@@ -89,7 +89,7 @@ calltab.addEventListener('click', function () {
 
 const chattab = document.querySelector('.button-chat')
 chattab.addEventListener('click', function () {
-  let content = document.querySelector('.modal-callback')
+  let content = document.querySelector('.modal-feedback')
   overlayClose(content)
   content.classList.remove('menu--off')
   let side = document.querySelector('.side-menu')
