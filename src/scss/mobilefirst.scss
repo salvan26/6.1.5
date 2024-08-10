@@ -599,3 +599,84 @@ body {
 .overlay--on {
   visibility: visible;
 }
+
+.modal-callback {
+  width: 320px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1000;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.modal__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.modal__off {
+  background-image: url(../img/burgerOpen.svg);
+}
+
+.modal__title {
+  padding-left: 5px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.modal__title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 75px;
+  width: 4px;
+  height: 40px;
+  background-image: url(../img/highlight.svg);
+}
+
+.modul__phone-call {
+  height: 48px;
+  width: 288px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 15px;
+  color: #b5b6bc;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal__text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #7e7e82;
+  span {
+    color: #ff3e79;
+  }
+}
+
+.btn--pretty {
+  display: inline-block;
+  border-radius: 16px;
+  background-color: #ff3e79;
+  background-image: url(../img/dropdown1.svg);
+  background-repeat: no-repeat;
+  background-position: 100px center;
+  text-align: left;
+  padding-left: 10px;
+  min-height: 32px;
+  width: 118px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 10px;
+  align-self: flex-end;
+}
