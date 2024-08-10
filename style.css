@@ -1062,7 +1062,7 @@ body {
   flex-direction: column;
   padding: 20px; }
 
-.swiper__btn-show2 {
+.hardware__btn-show {
   display: block;
   border: 1px solid #ff3e79;
   border-radius: 50%;
@@ -1071,7 +1071,7 @@ body {
   width: 40px;
   align-self: flex-end; }
 
-.hardware-text {
+.hardware__text {
   display: block;
   height: 80px;
   text-decoration: none;
