@@ -1,6 +1,6 @@
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   body {
-    width: calc(100em - 320px);
+    width: calc(100vw - 320px);
     position: relative;
     left: 320px;
   }
@@ -243,6 +243,7 @@
 
   .side-menu {
     display: block;
+    z-index: 0;
   }
   .menu--desk {
     display: none;
@@ -251,8 +252,19 @@
   .modal-callback {
     width: 440px;
     position: fixed;
-    top: 10px;
-    right: -1000px;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #fff;
+    overflow-y: scroll;
+  }
+
+  .modal-feedback {
+    width: 440px;
+    position: fixed;
+    top: 0;
+    right: 0;
     height: 100vh;
     z-index: 1000;
     background-color: #fff;

@@ -13,15 +13,11 @@ $shadow: #7e7e82;
 }
 
 html {
-  width: 100%;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
 body {
   background-color: #f8f8f8;
-  width: 100%;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -604,14 +600,14 @@ body {
   width: 320px;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   height: 100vh;
   z-index: 1000;
   background-color: #fff;
   overflow-y: scroll;
 }
 
-.modal__wrap {
+.modal-callback__wrap {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -619,17 +615,17 @@ body {
   padding-left: 10px;
 }
 
-.modal__off {
+.modal-callback__off {
   background-image: url(../img/burgerOpen.svg);
 }
 
-.modal__title {
+.modal-callback__title {
   padding-left: 5px;
   font-size: 24px;
   line-height: 32px;
 }
 
-.modal__title::before {
+.modal-callback__title::before {
   content: '';
   position: absolute;
   left: 0;
@@ -639,7 +635,7 @@ body {
   background-image: url(../img/highlight.svg);
 }
 
-.modul__phone-call {
+.modal-callback__phone-call {
   height: 48px;
   width: 288px;
   border: 1px solid #eaeaea;
@@ -648,7 +644,7 @@ body {
   color: #b5b6bc;
 }
 
-.modal__form {
+.modal-callback__form {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -678,5 +674,65 @@ body {
   font-size: 14px;
   line-height: 24px;
   margin-right: 10px;
+  margin-bottom: 10px;
   align-self: flex-end;
+}
+
+.modal-feedback {
+  width: 320px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 1000;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.modal-feedback__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.modal-feedback__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-feedback__off {
+  background-image: url(../img/burgerOpen.svg);
+}
+
+.modal-feedback__title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 75px;
+  width: 4px;
+  height: 40px;
+  background-image: url(../img/highlight.svg);
+}
+
+.modal__feedback-item {
+  height: 48px;
+  width: 288px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #b5b6bc;
+}
+
+.modal-feedback__textarea {
+  height: 118px;
+  width: 288px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #b5b6bc;
 }
