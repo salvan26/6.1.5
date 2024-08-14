@@ -1,6 +1,12 @@
 @media (min-width: 768px) {
   $tableLine: #eaeaea;
   $border: #d9fff5;
+
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
   .header__inner {
     display: flex;
     flex-direction: row;
@@ -163,7 +169,7 @@
     row-gap: 10px;
   }
 
-  .services-content {
+  .services-mobile {
     display: none;
   }
 
@@ -219,18 +225,6 @@
     padding-bottom: 10px;
     padding-right: 10px;
   }
-
-  .services__item-btn {
-    display: inline-block;
-    border-radius: 16px;
-    background-color: #ff3e79;
-    min-height: 32px;
-    width: 118px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 24px;
-  }
-
   .services__price-info {
     margin-top: 20px;
     width: 420px;
@@ -255,7 +249,7 @@
   .footer-info__string {
     font-size: 14px;
     padding: 0 20px;
-    padding-top: 30px;
+    padding-top: 5px;
     text-align: right;
   }
 

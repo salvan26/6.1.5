@@ -11,16 +11,16 @@ burger.addEventListener('click', function () {
   let content = document.querySelector('.side-menu')
   overlayClose(content)
   content.classList.remove('menu--off')
-  document.documentElement.style.overflow = 'hidden'
+  document.documentElement.classList.add('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.add('overlay--on')
 })
 
-const open = document.querySelector('.open--menu')
+const open = document.querySelector('.icon-open--menu')
 open.addEventListener('click', function () {
   let content = document.querySelector('.side-menu')
   content.classList.add('menu--off')
-  document.documentElement.style.overflow = 'auto'
+  document.documentElement.classList.remove('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.remove('overlay--on')
 })
@@ -30,71 +30,71 @@ const overlayClose = function (str) {
     let content = str
     content.classList.add('menu--off')
     overlay.classList.remove('overlay--on')
-    document.documentElement.style.overflow = 'auto'
+    document.documentElement.classList.remove('lock')
   })
 }
-const call = document.querySelector('.open--call')
+const call = document.querySelector('.round-icon--call')
 call.addEventListener('click', function () {
   let content = document.querySelector('.modal-callback')
   overlayClose(content)
   content.classList.remove('menu--off')
   let side = document.querySelector('.side-menu')
   side.classList.add('menu--off')
-  document.documentElement.style.overflow = 'hidden'
+  document.documentElement.classList.add('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.add('overlay--on')
 })
 
-const close = document.querySelector('.modal-callback__off')
+const close = document.querySelector('.callback--off')
 close.addEventListener('click', function () {
   let content = document.querySelector('.modal-callback')
   content.classList.add('menu--off')
-  document.documentElement.style.overflow = 'auto'
+  document.documentElement.classList.remove('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.remove('overlay--on')
 })
 
-const chat = document.querySelector('.open--chat')
+const chat = document.querySelector('.round-icon--chat')
 chat.addEventListener('click', function () {
   let content = document.querySelector('.modal-feedback')
   overlayClose(content)
   content.classList.remove('menu--off')
   let side = document.querySelector('.side-menu')
   side.classList.add('menu--off')
-  document.documentElement.style.overflow = 'hidden'
+  document.documentElement.classList.add('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.add('overlay--on')
 })
 
-const closeChat = document.querySelector('.modal-feedback__off')
+const closeChat = document.querySelector('.feedback--off')
 closeChat.addEventListener('click', function () {
   let content = document.querySelector('.modal-feedback')
   content.classList.add('menu--off')
-  document.documentElement.style.overflow = 'auto'
+  document.documentElement.classList.remove('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.remove('overlay--on')
 })
 
-const calltab = document.querySelector('.button-call')
+const calltab = document.querySelector('.side-call')
 calltab.addEventListener('click', function () {
   let content = document.querySelector('.modal-callback')
   overlayClose(content)
   content.classList.remove('menu--off')
   let side = document.querySelector('.side-menu')
   side.classList.add('menu--off')
-  document.documentElement.style.overflow = 'hidden'
+  document.documentElement.classList.add('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.add('overlay--on')
 })
 
-const chattab = document.querySelector('.button-chat')
+const chattab = document.querySelector('.side-chat')
 chattab.addEventListener('click', function () {
   let content = document.querySelector('.modal-feedback')
   overlayClose(content)
   content.classList.remove('menu--off')
   let side = document.querySelector('.side-menu')
   side.classList.add('menu--off')
-  document.documentElement.style.overflow = 'hidden'
+  document.documentElement.classList.add('lock')
   let overlay = document.querySelector('.overlay')
   overlay.classList.add('overlay--on')
 })
