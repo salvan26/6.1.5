@@ -73,7 +73,7 @@
 
   .swiper-container,
   .swiper-container1 {
-    width: 768px;
+    width: 100%;
     height: auto;
   }
 
@@ -82,12 +82,16 @@
     margin-top: 10px;
     margin-left: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 224px);
+    grid-template-columns: repeat(auto-fill, 224px);
     grid-template-rows: repeat(2, 72px);
     grid-auto-rows: 0;
     overflow-y: hidden;
     gap: 24px;
     row-gap: 10px;
+  }
+
+  .brand-wrapper::-webkit-scrollbar {
+    width: 0;
   }
 
   .swiper__btn-show {
@@ -142,10 +146,14 @@
     margin-top: 10px;
     margin-left: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 224px);
+    grid-template-columns: repeat(auto-fill, 224px);
     overflow-y: hidden;
     gap: 24px;
     row-gap: 10px;
+  }
+
+  .hardware-wrapper::-webkit-scrollbar {
+    width: 0;
   }
 
   .slide-hardware {
@@ -176,6 +184,7 @@
   .services-table {
     display: table;
     width: 100%;
+    margin: 0 30px;
   }
 
   .services__tablet {
@@ -203,6 +212,7 @@
     text-align: left;
     font-size: 14px;
     height: 60px;
+    margin-right: 20px;
   }
 
   .services__item {
@@ -223,7 +233,7 @@
     text-align: end;
     vertical-align: middle;
     padding-bottom: 10px;
-    padding-right: 10px;
+    padding-right: 30px;
   }
   .services__price-info {
     margin-top: 20px;

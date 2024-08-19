@@ -261,10 +261,15 @@
     z-index: 0;
     position: absolute;
     top: 0;
+    max-height: 1040px;
     left: -320px;
   }
 
-  .icon-open--menu {
+  .side-menu__contacts {
+    margin-top: 320px;
+  }
+
+  .round-icon--open {
     display: none;
   }
 
@@ -292,7 +297,7 @@
     background-color: #fff;
   }
 
-  .callback--off {
+  .round-icon--off {
     position: absolute;
     left: -55px;
     top: 15px;
