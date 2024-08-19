@@ -154,20 +154,20 @@
   .brand-wrapper {
     height: 160px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
     display: grid;
-    grid-template-columns: repeat(4, 224px);
+    grid-template-columns: repeat(4, 244px);
     grid-template-rows: repeat(2, 72px);
     grid-auto-rows: 0;
     overflow-y: hidden;
-    gap: 24px;
-    row-gap: 10px;
+    gap: 34px;
+    row-gap: 20px;
   }
 
   .hardware-wrapper {
     height: 160px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
     display: grid;
     grid-template-columns: repeat(4, 224px);
     overflow-y: hidden;
