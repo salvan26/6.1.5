@@ -1048,6 +1048,7 @@ body {
   justify-content: space-between;
   padding: 0 15px;
   align-items: center;
+  background-color: #ffffff;
   height: 72px;
   width: 240px; }
 
@@ -1488,12 +1489,12 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 224px);
+    grid-template-columns: repeat(auto-fit, 224px);
     grid-template-rows: repeat(2, 72px);
     grid-auto-rows: 0;
     overflow-y: hidden;
-    gap: 24px;
-    row-gap: 10px; }
+    gap: 30px;
+    row-gap: 20px; }
   .brand-wrapper::-webkit-scrollbar {
     width: 0; }
   .swiper__btn-show {
@@ -1739,18 +1740,18 @@ body {
   .brand-wrapper {
     height: 160px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
     display: grid;
-    grid-template-columns: repeat(4, 224px);
+    grid-template-columns: repeat(4, 244px);
     grid-template-rows: repeat(2, 72px);
     grid-auto-rows: 0;
     overflow-y: hidden;
-    gap: 24px;
-    row-gap: 10px; }
+    gap: 34px;
+    row-gap: 20px; }
   .hardware-wrapper {
     height: 160px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
     display: grid;
     grid-template-columns: repeat(4, 224px);
     overflow-y: hidden;
