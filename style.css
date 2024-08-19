@@ -955,7 +955,8 @@ body {
 
 .main__button:hover {
   border-color: #d9fff5;
-  border-radius: 6px; }
+  border-radius: 6px;
+  background-color: #ffffff; }
 
 .main__about-block {
   display: flex;
@@ -1489,7 +1490,7 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 224px);
+    grid-template-columns: repeat(3, 224px);
     grid-template-rows: repeat(2, 72px);
     grid-auto-rows: 0;
     overflow-y: hidden;
@@ -1628,6 +1629,30 @@ body {
     text-align: right;
     word-wrap: break-word;
     width: 200px; } }
+
+@media (min-width: 1050px) {
+  .brand-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 224px);
+    grid-template-rows: repeat(2, 72px);
+    grid-auto-rows: 0;
+    overflow-y: hidden; }
+  .wrapper-show {
+    grid-template-columns: repeat(4, 224px);
+    grid-auto-rows: 72px;
+    overflow-y: hidden; } }
+
+@media (min-width: 1270px) {
+  .brand-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 224px);
+    grid-template-rows: repeat(2, 72px);
+    grid-auto-rows: 0;
+    overflow-y: hidden; }
+  .wrapper-show {
+    grid-template-columns: repeat(5, 224px);
+    grid-auto-rows: 72px;
+    overflow-y: hidden; } }
 
 @media (min-width: 1440px) {
   html {
