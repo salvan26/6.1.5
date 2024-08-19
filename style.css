@@ -1815,7 +1815,8 @@ body {
   .item--position {
     margin-left: 50px; }
   .item--lining {
-    width: 50px; }
+    width: 50px;
+    padding-right: 0; }
   .side-menu {
     display: block;
     z-index: 0;
